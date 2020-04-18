@@ -1,0 +1,10 @@
+#ifndef MULTISET2_DYNAMIC_MEMORY
+#define MULTISET2_DYNAMIC_MEMORY
+
+#include <dynamicmemory/repository.h>
+
+template <typename T> bool objectEquality(const weak_pointer<T>& left, const weak_pointer<T>& right) {
+    return left == right;
+};
+
+#endif
